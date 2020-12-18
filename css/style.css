@@ -1,0 +1,179 @@
+/*
+
+
+*/
+
+/*Header*/
+
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 5%;
+}
+
+img {
+    max-width: 100%;
+   
+}
+
+nav li{
+    list-style: none;
+    font-weight: bold;
+    line-height: 2;
+    text-transform: uppercase;
+    color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+p {
+color: #696969;
+
+}
+
+.section-title {
+    text-transform: uppercase;
+     padding-bottom: 5%;
+}
+
+header {
+    padding-bottom: 10%;
+}
+
+section {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+
+#contact span {
+    padding: 2%;
+    font-weight: bold;
+}
+
+footer {
+    clear: both;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+    
+    
+
+}
+
+.footer-nav {
+    display: none;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.link-left {
+    float: left;
+    font-weight: bold;
+    
+}
+
+.link-right {
+    float: right;
+    font-weight: bold;
+}
+
+/*Tablet View */
+
+@media screen and (min-width:768px) {
+    nav li {
+        display: inline-block;
+        padding: 5%;
+    }
+
+    header img {
+        float: right;
+       
+    }
+
+    header p {
+        width: 48%;
+        padding-right: 2%;
+       
+        
+    }
+
+    .project {
+        float:left;
+        width: 42%;
+        margin: 2%;
+        
+       
+    }
+
+    .link-right {
+        display: none;
+    }
+    
+    
+
+    .footer-nav {
+        display: inline-block;
+        float: right;
+         
+        
+    }
+
+    .footer-nav ul {
+        margin-top: 0px;
+        
+    }
+
+    .footer-nav li {
+        padding: 1px;
+        
+       
+       
+    }
+
+
+}
+
+/*Desktop*/
+@media screen and (min-width: 1024px) {
+
+    .bio {
+        padding-bottom: 5px;
+    }
+    .bio h1 {
+        float: left
+    }
+
+    .bio nav {
+        float: right;
+        
+    }
+
+    .bio nav li {
+        padding: 5px;
+    }
+
+   .project {
+       width: 25%;
+   }
+}
+
+
+
